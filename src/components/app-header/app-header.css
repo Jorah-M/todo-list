@@ -4,9 +4,16 @@
 
 .app-header h1 {
   flex-grow: 1;
+  font-size: 2rem;
 }
 
 .app-header h2 {
   font-size: 1.2rem;
   color: grey;
+}
+
+.app-header svg {
+  flex-grow: 1;
+  font-size: 3rem;
+  margin-right: 30px;
 }

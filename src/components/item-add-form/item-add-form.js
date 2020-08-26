@@ -36,8 +36,8 @@ export default class ItemAddForm extends Component {
                         //value, устанавливаемое из state, позволяет сделать элемнент контролируемым
                         value={this.state.label}/>
                 <button 
-                className='btn btn-outline-secondary'> 
-                    Add Item
+                className='btn btn-outline-secondary shadow-sm'> 
+                    Add
                 </button> 
             </form>
         )
