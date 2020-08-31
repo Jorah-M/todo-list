@@ -12,7 +12,7 @@ export default class SearchPanel extends Component {
     const term = event.target.value;
     this.setState({ term });
     this.props.onSearchChange(term);
-};
+  };
 
   render() {
     return (
